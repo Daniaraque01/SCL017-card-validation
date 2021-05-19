@@ -1,0 +1,93 @@
+.titulo-1 {
+background-color:darkgreen;
+padding:20px;
+height:50px;
+width:100%;
+box-sizing: border-box;
+margin: 0;
+color:white;
+font-size: 20px;
+}
+
+.titulo {
+    color:darkgreen ;
+}
+
+.titulo-2 {
+color:orange;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    background-color:orange;
+    width:100%;
+}
+
+body {
+    margin: 0;
+     }
+
+.titulo-3 {
+    color:black;
+}
+
+.comprar {
+  text-align: center;
+  display: block;
+  border-radius: 20px;
+  text-decoration:none;
+  cursor:pointer;
+  color:white;
+  font-size: 25px;
+  width: 130px;
+  height: auto;
+  padding: 15px;
+  background-color:darkgreen;
+}
+
+.comprar:hover {
+    background-color:green;
+}
+
+.pago {
+    color:darkgreen ;
+}
+
+.img-pago {
+    width: 50px;
+    height: 50px;
+}
+
+.dato-tarjeta {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.fecha {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.cvv {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+} 
+
+.validar-tarjeta {
+  text-align: center;
+  display: block;
+  border-radius: 20px;
+  text-decoration:none;
+  cursor:pointer;
+  color:white;
+  font-size: 25px;
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  background-color:darkgreen;
+  margin-top: 3em;
+}
