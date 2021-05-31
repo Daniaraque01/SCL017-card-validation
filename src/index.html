@@ -12,18 +12,44 @@
     <h4 class="titulo-1">PUNTO SANO</h4>
   </header>
   <main>
-  
-  <h1 class="titulo"><center>BIENVENIDOS A PUNTO SANO</center> </h1>
-  <h1 class="titulo-2"><center>LA MEJOR INVERSIÓN PARA TU DÍA A DÍA</center></h1>
-  <p>
-    <center>"Come rico y saludable todos los dias <br> <b>sin tener que cocinar"</b></center>
-  </p> <br> <br>
-  <center><img src="puntosano.png"/></center> <br>
-<h1 class="titulo-3"><center>"COMPRA Y PLANIFICA"</center></h1> <br> <br> <br>
-<center><a href="index2.html" class="comprar"><b>COMPRAR</b></a></center>
-  
-</main>
-  <footer>Todos los derechos reservados <b>Instagram:</b> @todosano <b>Web:</b> www.sano.cl <b>telefono:</b> +5690000000</footer>
+    <div id="index1" class="center">
+      <h1 class="titulo">BIENVENIDOS A PUNTO SANO</h1>
+      <h1 class="titulo-2">LA MEJOR INVERSIÓN PARA TU DÍA A DÍA</h1>
+      <p>
+        "Come rico y saludable todos los dias <br> <b>sin tener que cocinar"</b>
+      </p> <br> <br>
+      <img src="puntosano.png" /> <br>
+      <h1 class="titulo-3">"COMPRA Y PLANIFICA"</h1> <br> <br> <br>
+
+      <button class="button" onclick="togo()"><b>COMPRAR</b></button>
+    </div> 
+
+    <div id="index2"  class="center hidden">
+      <h1 class="pago">CONTINUAR CON EL PAGO</h1>
+      <div>
+          <h2>CRÉDITO</h2>
+      </div>
+      <div class="contenedor">
+          <div class="centrar">
+              <h3 class="datos">Ingresa tus datos</h3>
+              <h4>Nombre y apellido</h4>
+              <input class="inputs" type="text" placeholder="ingresa tu nombre" />
+              <h4>Número detarjeta</h4>
+              <input class="inputs" type="text" oninput="mask(event)" id="validator"
+                  placeholder="XXXX XXXX XXXX XXXX" />
+              <h4>Fecha de expiración</h4>
+              <input type="month" name="fecha" id="fecha" class="inputs" value="2019-08" /> <br>
+              <h4>CVV</h4>
+              <input class="inputs" type="password" maxlength="3" placeholder="o o o" />
+          </div>
+      </div>
+      <p id="tarjetarechazada"></p>
+      <p id="tarjetaaceptada"></p>
+      <button class="button" onclick="validator()">FINALIZAR COMPRA</button>
+  </div>
+  </main>
+  <footer>Todos los derechos reservados <b>Instagram:</b> @todosano <b>Web:</b> www.sano.cl <b>telefono:</b> +5690000000
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 

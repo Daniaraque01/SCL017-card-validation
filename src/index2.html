@@ -2,26 +2,45 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Tarjeta de crédito válida</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header><h4 class="titulo-1">PUNTO SANO</h4></header>
-  <main>
-  <center><h1 class="pago">CONTINUAR CON EL PAGO</h1></center>
-  <center><div><h2>CRÉDITO <img class="img-pago" src="credito.jpg"/></h2></div></center>
-  <center><h3>Ingresa los datos de tu tarjeta</h3></center>
-  <center><h4>Número detarjeta</h4></center>
-  <form>
-  <center><input class= "dato-tarjeta" type="text" maxlength="16" placeholder="XXXX XXXX XXXX XXXX"/></center>
-  <center><h4>Fecha de expiración</h4></center>
-  <center><input type="month" name="fecha" id="fecha" class="fecha" value="2019-08"> <input class="cvv" type="password" maxlength="3" placeholder="o o o"/></center>
-  <center><button class="validar-tarjeta" onclick="validator">FINALIZAR COMPRA</button></center>
-  </form>
-  <footer>Todos los derechos reservados <b>Instagram:</b> @todosano <b>Web:</b> www.sano.cl <b>telefono:</b> +5690000000</footer>
-  <script src="index.js" type="module"></script>
+    <header>
+        <h4 class="titulo-1">PUNTO SANO</h4>
+    </header>
+    <main>
+
+        <div id="index2"  class="center">
+            <h1 class="pago">CONTINUAR CON EL PAGO</h1>
+            <div>
+                <h2>CRÉDITO</h2>
+            </div>
+            <div class="contenedor">
+                <div class="centrar">
+                    <h3 class="datos">Ingresa tus datos</h3>
+                    <h4>Nombre y apellido</h4>
+                    <input class="inputs" type="text" placeholder="ingresa tu nombre" />
+                    <h4>Número detarjeta</h4>
+                    <input class="inputs" type="text" oninput="mask(event)" id="validator"
+                        placeholder="XXXX XXXX XXXX XXXX" />
+                    <h4>Fecha de expiración</h4>
+                    <input type="month" name="fecha" id="fecha" class="inputs" value="2019-08" /> <br>
+                    <h4>CVV</h4>
+                    <input class="inputs" type="password" maxlength="3" placeholder="o o o" />
+                </div>
+            </div>
+            <p id="tarjetarechazada"></p>
+            <p id="tarjetaaceptada"></p>
+            <button class="validar-tarjeta" onclick="validator()">FINALIZAR COMPRA</button>
+        </div>
+        <footer>Todos los derechos reservados <b>Instagram:</b> @todosano <b>Web:</b> www.sano.cl <b>telefono:</b>
+            +5690000000</footer>
+        <script src="index.js" type="module"></script>
+        <script src="https://kit.fontawesome.com/7b7697d7b8.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

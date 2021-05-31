@@ -1,18 +1,20 @@
-# **TODO SANO - CARD VALIDATION**
+**TODO SANO - CARD VALIDATION**
 
-Este proyecto esta basado en hacerle la vida más facil al usuario, en cuanto a la organización con la comida de las personas que tienen muy poco tiempo, además de eso que ayudamos a señoras amas de casa a generar ingresos extras desde sus hogares, ya que son ellas las cocineras del día a día.
+Este proyecto está basado en hacerle la vida más fácil en cuanto a la organización con la comida a las personas que tienen muy poco tiempo, se trata de enviarle al cliente su comida de la semana en un solo pedido, el tipo de comida que queremos enviar es comida totalmente saludable , que pueden comer tanto en desayunos que están super apresurados para iniciar su dia, y cenas que ya después de un largo dia agotador , tendrán a la mano las comidas de punto sano. 
 
-**¿Quienes son los principales usuarios del producto?
+**¿Quiénes son los principales usuarios del producto?**
+
+Son personas que tienen mucho trabajo, y resolver que comer todos los días es un trabajo extra, el factor determinante siempre va a ser el tiempo.
+
+**¿Cuáles son los objetivos de estos usuarios en relación con mi proyecto?
 **
-Son personas que tienen mucho trabajo, y resolver que comer todos los dias es un trabajo extra.
 
-**¿Cuáles son los objetivos de estos usuarios en relación con mi proyecto?**
+Que puedan consumir comida saludable, además de rica que les facilite cumplir con su trabajo y ahorrar tiempo. 
 
-Que puedan tener comida saludable y fresca todos los dias, además de rica que les facilite llegar en el horario planificado , cumplir con su trabajo y ahorrar tiempo.
+**¿Cómo creo que el producto que estoy creando está solucionando sus problemas?**
 
-**¿Comó creo que el producto que estoy creando esta solucionando sus problemas?**
+Solo deben tomarse 5 minutos de su valioso tiempo para ingresar al sistema, y con ello pueden planificar su comida a elegir de toda la semana, además que ahorra tiempo, dinero y cuida su salud, este punto también puede afectar en que las personas no tomen su comida a tiempo, y comen a deshora, lo que juega muy en contra a cuidar el peso, la salud, y evitar la obesidad. 
 
-Solo deben tomarse 5 minutos de su valioso tiempo para ingresar al sistema, y con ello pueden planificar su comida a elegir de toda la semana, además que ahorra tiempo, dinero y cuida su salud.
 
 **Fuentes:
 **

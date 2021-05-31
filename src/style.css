@@ -1,27 +1,32 @@
 .titulo-1 {
-background-color:darkgreen;
-padding:20px;
+background-color:rgb(48, 122, 119);
+padding:10px;
 height:50px;
 width:100%;
 box-sizing: border-box;
 margin: 0;
 color:white;
-font-size: 20px;
+font-size: 30px;
+text-align:left;
 }
 
 .titulo {
-    color:darkgreen ;
+    color:black;
 }
 
 .titulo-2 {
-color:orange;
+color:black;
 }
 
 footer {
     position: fixed;
     bottom:0;
-    background-color:orange;
+    background-color:black;
     width:100%;
+    height: 26px ;
+    text-align:0;
+    color:white;
+    font-size: 20px;
 }
 
 body {
@@ -32,52 +37,46 @@ body {
     color:black;
 }
 
-.comprar {
-  text-align: center;
-  display: block;
-  border-radius: 20px;
-  text-decoration:none;
-  cursor:pointer;
-  color:white;
-  font-size: 25px;
-  width: 130px;
-  height: auto;
-  padding: 15px;
-  background-color:darkgreen;
+.center {
+    margin: 0 auto;
+    text-align: center;
 }
 
-.comprar:hover {
-    background-color:green;
+.datos {
+    font-size: 30px; 
+    margin: 0 auto;
 }
+
+.contenedor {
+background-color:black;
+width: 250px;
+padding: 1rem;
+text-align: center;
+margin-left: auto;
+margin-right:auto ;
+}
+
+.centrar {
+background-color:white;
+padding: 1rem;
+margin: 0 auto;
+text-align: center
+
+}
+
 
 .pago {
-    color:darkgreen ;
+    color:black;
+    margin-top: 1;
 }
-
-.img-pago {
-    width: 50px;
-    height: 50px;
-}
-
-.dato-tarjeta {
+.inputs{
     width: 180px;
     height: 30px;
     border-radius: 10px;
+    text-align: center ;
 }
 
-.fecha {
-    width: 150px;
-    height: 30px;
-    border-radius: 10px;
-}
-
-.cvv {
-    width: 150px;
-    height: 30px;
-    border-radius: 10px;
-} 
-
-.validar-tarjeta {
+.button {
   text-align: center;
   display: block;
   border-radius: 20px;
@@ -88,6 +87,18 @@ body {
   width: 300px;
   height: auto;
   padding: 15px;
-  background-color:darkgreen;
-  margin-top: 3em;
+  background-color:black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin: 0 auto;
+}
+.button:hover {
+    background-color:rgb(63, 58, 58);
+}
+.hidden {
+ display: none;
+}
+
+.visible {
+display: initial;
 }
